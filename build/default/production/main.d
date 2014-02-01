@@ -1,0 +1,1 @@
+build/default/production/main.d build/default/production/main.p1: main.c DS1307.h i2c.h lcd.h /Applications/HI-TECH/picc-18/9.80/include/htc.h /Applications/HI-TECH/picc-18/9.80/include/chip_select.h /Applications/HI-TECH/picc-18/9.80/include/pic18f23k22.h useables.h /Applications/HI-TECH/picc-18/9.80/include/errata.h /Applications/HI-TECH/picc-18/9.80/include/pic18.h

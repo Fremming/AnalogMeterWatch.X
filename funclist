@@ -1,0 +1,21 @@
+_lcd_send: CODE, 592 0 36
+_lcd_write4bits: CODE, 872 0 18
+_lcd_command: CODE, 854 0 18
+_i2c_start: CODE, 922 0 8
+_ISR: CODE, 8 0 114
+_lcd_begin: CODE, 326 0 178
+_lcd_display: CODE, 890 0 14
+_main: CODE, 126 0 200
+_lcd_clear: CODE, 718 0 28
+_setup_pwm: CODE, 746 0 26
+_lcd_eWrite: CODE, 552 0 40
+_i2c_address: CODE, 816 0 20
+_i2c_write: CODE, 904 0 10
+_lcd_pulse: CODE, 794 0 22
+_i2c_stop: CODE, 914 0 8
+_lcd_write: CODE, 836 0 18
+_i2c_wait: CODE, 690 0 28
+_i2c_init: CODE, 772 0 22
+_lcd_home: CODE, 662 0 28
+_lcd_init: CODE, 628 0 34
+Total: 870

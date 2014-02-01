@@ -1,0 +1,49 @@
+I/O's:
+
+PWM_HOUR
+PWM_MINUTES
+
+I2C -> RTC      Page 222 Need SCLx and SDAx
+
+BTN_UP
+BTN_DOWN
+
+
+Pinouts:
+ PAGE 17
+PIC18F23K22
+
+2  (RA0     / AN0       / C12IN0-):
+3  (RA1     / AN1       / C12IN1-):
+4  (RA2     / AN2       / C2IN+         / Vref- DACOUT):
+5  (RA3     / AN3       / C1IN+         / Vref+):
+6  (RA4     / C1OUT     / SRQ           / CCP5              / T0CKI):
+7  (RA5     / AN4       / C2OUT         / SRNQ              / HLVDIN    / _SS1):
+9  (RA7     / OSC1 CLKI):
+10 (RA6     / OSC2 CLKO):
+11 (RC0     / P2B       / SOSCO T1CKI T3CKI T3G):
+
+
+
+1  (_MCLR   / Vpp       / RE3):
+8  (Vss):
+12 (RC1     / CCP2):    PWM2
+13 (RC2     / CCP1):    PWM1
+14 (RC3     / SCL1):    RTC I2C
+15 (RC4     / SDA1):    RTC I2C
+19 (Vss):
+20 (Vdd):
+27 (RB6     / PGC) [PULLUP]:
+28 (RB7     / PGD) [PULLUP]:
+
+
+
+16 (RC5     / AN17      / SDO1):
+17 (RC6     / AN18      / CCP3 P3A      / TX1/CK1):
+18 (RC7     / AN19      / P3B           / RX1/DT1):
+21 (RB0     / AN12      / SRI           / CCP4 FLT0         / _SS2 / INT0) [PULLUP]:
+22 (RB1     / AN10      / C12IN3-       / P1C               / SCK2 SCL2 / INT1) [PULLUP]:
+23 (RB2     / AN8       / CTED1         / P1B               / SDI2 SDA2 / INT2) [PULLUP]:
+24 (RB3     / AN9       / C12IN2-       / CTED2             / CCP2 P2A / SDO2) [PULLUP]:
+25 (RB4     / AN11      / P1D           / T5G               / IOC) [PULLUP]:
+26 (RB5     / AN13      / CCP3 P3A P2B  / T1G T3CKI         / IOC) [PULLUP]:

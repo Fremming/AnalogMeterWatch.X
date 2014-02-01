@@ -1,0 +1,452 @@
+[p LITE_MODE AUTOSTATIC LFSROK ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F23K22 ]
+"1195 /Applications/HI-TECH/picc-18/9.80/include/pic18f23k22.h
+"35 main.c
+[v F7544 `(v  1 t 0 ]
+"5 ../../common/abdiv.c
+[v ___abdiv `(c  1 e 1 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/abmod.c
+[v ___abmod `(c  1 e 1 0 ]
+"32 /Applications/HI-TECH/picc-18/9.80/sources/abtofl.c
+[v ___abtofl `(d  1 e 3 0 ]
+"34 /Applications/HI-TECH/picc-18/9.80/sources/abtoft.c
+[v ___abtoft `(f  1 e 3 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/almod.c
+[v ___almod `(l  1 e 4 0 ]
+"37 /Applications/HI-TECH/picc-18/9.80/sources/altofl.c
+[v ___altofl `(d  1 e 3 0 ]
+"43 /Applications/HI-TECH/picc-18/9.80/sources/altoft.c
+[v ___altoft `(f  1 e 3 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/asfladd.c
+[v ___asfladd `(d  1 e 3 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/asfldiv.c
+[v ___asfldiv `(d  1 e 3 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/asflmul.c
+[v ___asflmul `(d  1 e 3 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/asflsub.c
+[v ___asflsub `(d  1 e 3 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/asftadd.c
+[v ___asftadd `(f  1 e 3 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/asftdiv.c
+[v ___asftdiv `(f  1 e 3 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/asftmul.c
+[v ___asftmul `(f  1 e 3 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/asftsub.c
+[v ___asftsub `(f  1 e 3 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/aslmul.c
+[v ___aslmul `(ul  1 e 4 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/atdiv.c
+[v ___atdiv `(m  1 e 3 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/atmod.c
+[v ___atmod `(m  1 e 3 0 ]
+"38 /Applications/HI-TECH/picc-18/9.80/sources/attofl.c
+[v ___attofl `(d  1 e 3 0 ]
+"38 /Applications/HI-TECH/picc-18/9.80/sources/attoft.c
+[v ___attoft `(f  1 e 3 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/awdiv.c
+[v ___awdiv `(i  1 e 2 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+"32 /Applications/HI-TECH/picc-18/9.80/sources/awtofl.c
+[v ___awtofl `(d  1 e 3 0 ]
+"33 /Applications/HI-TECH/picc-18/9.80/sources/awtoft.c
+[v ___awtoft `(f  1 e 3 0 ]
+"3 /Applications/HI-TECH/picc-18/9.80/sources/bmul.c
+[v ___bmul `(uc  1 e 1 0 ]
+"64 /Applications/HI-TECH/picc-18/9.80/sources/double.c
+[v ___flpack `(d  1 e 3 0 ]
+"89 /Applications/HI-TECH/picc-18/9.80/sources/fladd.c
+[v ___fladd `(d  1 e 3 0 ]
+"50 /Applications/HI-TECH/picc-18/9.80/sources/fldiv.c
+[v ___fldiv `(d  1 e 3 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/flge.c
+[v ___flge `(b  1 e 0 0 ]
+"51 /Applications/HI-TECH/picc-18/9.80/sources/flmul.c
+[v ___flmul `(d  1 e 3 0 ]
+"16 /Applications/HI-TECH/picc-18/9.80/sources/flneg.c
+[v ___flneg `(d  1 e 3 0 ]
+"63 /Applications/HI-TECH/picc-18/9.80/sources/float.c
+[v ___ftpack `(f  1 e 3 0 ]
+"22 /Applications/HI-TECH/picc-18/9.80/sources/flsub.c
+[v ___flsub `(d  1 e 3 0 ]
+"44 /Applications/HI-TECH/picc-18/9.80/sources/fltol.c
+[v ___fltol `(l  1 e 4 0 ]
+"87 /Applications/HI-TECH/picc-18/9.80/sources/ftadd.c
+[v ___ftadd `(f  1 e 3 0 ]
+"50 /Applications/HI-TECH/picc-18/9.80/sources/ftdiv.c
+[v ___ftdiv `(f  1 e 3 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/ftge.c
+[v ___ftge `(b  1 e 0 0 ]
+"52 /Applications/HI-TECH/picc-18/9.80/sources/ftmul.c
+[v ___ftmul `(f  1 e 3 0 ]
+"16 /Applications/HI-TECH/picc-18/9.80/sources/ftneg.c
+[v ___ftneg `(f  1 e 3 0 ]
+"22 /Applications/HI-TECH/picc-18/9.80/sources/ftsub.c
+[v ___ftsub `(f  1 e 3 0 ]
+"45 /Applications/HI-TECH/picc-18/9.80/sources/fttol.c
+[v ___fttol `(l  1 e 4 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/lbdiv.c
+[v ___lbdiv `(uc  1 e 1 0 ]
+"5 /Applications/HI-TECH/picc-18/9.80/sources/lbmod.c
+[v ___lbmod `(uc  1 e 1 0 ]
+"28 /Applications/HI-TECH/picc-18/9.80/sources/lbtofl.c
+[v ___lbtofl `(d  1 e 3 0 ]
+"28 /Applications/HI-TECH/picc-18/9.80/sources/lbtoft.c
+[v ___lbtoft `(f  1 e 3 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/lldiv.c
+[v ___lldiv `(ul  1 e 4 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/llmod.c
+[v ___llmod `(ul  1 e 4 0 ]
+"31 /Applications/HI-TECH/picc-18/9.80/sources/lltofl.c
+[v ___lltofl `(d  1 e 3 0 ]
+"36 /Applications/HI-TECH/picc-18/9.80/sources/lltoft.c
+[v ___lltoft `(f  1 e 3 0 ]
+"3 /Applications/HI-TECH/picc-18/9.80/sources/lmul.c
+[v ___lmul `(ul  1 e 4 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/ltdiv.c
+[v ___ltdiv `(um  1 e 3 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/ltmod.c
+[v ___ltmod `(um  1 e 3 0 ]
+"31 /Applications/HI-TECH/picc-18/9.80/sources/lttofl.c
+[v ___lttofl `(d  1 e 3 0 ]
+"31 /Applications/HI-TECH/picc-18/9.80/sources/lttoft.c
+[v ___lttoft `(f  1 e 3 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/lwdiv.c
+[v ___lwdiv `(ui  1 e 2 0 ]
+"10 /Applications/HI-TECH/picc-18/9.80/sources/lwmod.c
+[v ___lwmod `(ui  1 e 2 0 ]
+"29 /Applications/HI-TECH/picc-18/9.80/sources/lwtofl.c
+[v ___lwtofl `(d  1 e 3 0 ]
+"29 /Applications/HI-TECH/picc-18/9.80/sources/lwtoft.c
+[v ___lwtoft `(f  1 e 3 0 ]
+"3 /Applications/HI-TECH/picc-18/9.80/sources/tmul.c
+[v ___tmul `(um  1 e 3 0 ]
+"3 /Applications/HI-TECH/picc-18/9.80/sources/wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+"18 DS1307.h
+[v _setDateDS1307 `(v  1 e 0 0 ]
+"19
+[v _getDateDS1307 `(v  1 e 0 0 ]
+"22
+[v _read_rtc `(uc  1 e 1 0 ]
+"36
+[v _write_rtc `(v  1 e 0 0 ]
+"15 i2c.h
+[v _i2c_init `(v  1 e 0 0 ]
+"27
+[v _i2c_wait `(v  1 e 0 0 ]
+"31
+[v _i2c_start `(v  1 e 0 0 ]
+"36
+[v _i2c_restart `(v  1 e 0 0 ]
+"41
+[v _i2c_stop `(v  1 e 0 0 ]
+"46
+[v _i2c_write `(v  1 e 0 0 ]
+"51
+[v _i2c_address `(v  1 e 0 0 ]
+"60
+[v _i2c_read `(uc  1 e 1 0 ]
+"72 lcd.h
+[v _lcd_eWrite `(v  1 e 0 0 ]
+"79
+[v _lcd_pulse `(v  1 e 0 0 ]
+"86
+[v _lcd_write4bits `(v  1 e 0 0 ]
+"91
+[v _lcd_send `(v  1 e 0 0 ]
+"100
+[v _lcd_write `(v  1 e 0 0 ]
+"104
+[v _lcd_command `(v  1 e 0 0 ]
+"108
+[v _lcd_clear `(v  1 e 0 0 ]
+"113
+[v _lcd_home `(v  1 e 0 0 ]
+"118
+[v _lcd_setCursor `(v  1 e 0 0 ]
+"126
+[v _lcd_noDisplay `(v  1 e 0 0 ]
+"131
+[v _lcd_display `(v  1 e 0 0 ]
+"136
+[v _lcd_noCursor `(v  1 e 0 0 ]
+"141
+[v _lcd_cursor `(v  1 e 0 0 ]
+"146
+[v _lcd_noBlink `(v  1 e 0 0 ]
+"151
+[v _lcd_blink `(v  1 e 0 0 ]
+"156
+[v _lcd_scrollDisplayLeft `(v  1 e 0 0 ]
+"160
+[v _lcd_scrollDisplayRight `(v  1 e 0 0 ]
+"164
+[v _lcd_leftToRight `(v  1 e 0 0 ]
+"169
+[v _lcd_rigthToLeft `(v  1 e 0 0 ]
+"174
+[v _lcd_noAutoscroll `(v  1 e 0 0 ]
+"179
+[v _lcd_autoscroll `(v  1 e 0 0 ]
+"184
+[v _lcd_createChar `(v  1 e 0 0 ]
+"192
+[v _lcd_noBacklight `(v  1 e 0 0 ]
+"197
+[v _lcd_backlight `(v  1 e 0 0 ]
+"203
+[v _lcd_print `(v  1 e 0 0 ]
+"209
+[v _lcd_begin `(v  1 e 0 0 ]
+"248
+[v _lcd_init `(v  1 e 0 0 ]
+"40 main.c
+[v _main `(i  1 e 2 0 ]
+"78
+[v _setup_pwm `(v  1 e 0 0 ]
+"90
+[v _ISR `I(v  1 e 0 0 ]
+"26 useables.h
+[v _decToBcd `(uc  1 e 1 0 ]
+"31
+[v _bdcToDec `(uc  1 e 1 0 ]
+"17 /Applications/HI-TECH/picc-18/9.80/include/pic18f23k22.h
+[v _ANSELA `Vuc  1 e 1 @3896 ]
+"34
+[v _ANSELB `Vuc  1 e 1 @3897 ]
+"51
+[v _ANSELC `Vuc  1 e 1 @3898 ]
+"1160
+[v _CCP2CON `Vuc  1 e 1 @3942 ]
+"1195
+[v _CCPR2L `Vuc  1 e 1 @3943 ]
+"2467
+[v _PORTB `Vuc  1 e 1 @3969 ]
+"2560
+[v _PORTC `Vuc  1 e 1 @3970 ]
+[s S53 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2877
+[s S62 . 1 `uc 1 LATB 1 0 :8:0 
+]
+[s S64 . 1 `uc 1 LB0 1 0 :1:0 
+]
+[s S66 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+]
+[s S69 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LB2 1 0 :1:2 
+]
+[s S72 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LB3 1 0 :1:3 
+]
+[s S75 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LB4 1 0 :1:4 
+]
+[s S78 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LB5 1 0 :1:5 
+]
+[s S81 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LB6 1 0 :1:6 
+]
+[s S84 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S87 . 1 `S53 1 . 1 0 `S62 1 . 1 0 `S64 1 . 1 0 `S66 1 . 1 0 `S69 1 . 1 0 `S72 1 . 1 0 `S75 1 . 1 0 `S78 1 . 1 0 `S81 1 . 1 0 `S84 1 . 1 0 ]
+[v _LATBbits `VS87  1 e 1 @3978 ]
+"2996
+[v _TRISB `Vuc  1 e 1 @3987 ]
+"4626
+[v _T2CON `Vuc  1 e 1 @4026 ]
+"4649
+[v _PR2 `Vuc  1 e 1 @4027 ]
+"4673
+[v _CCP1CON `Vuc  1 e 1 @4029 ]
+"4709
+[v _CCPR1L `Vuc  1 e 1 @4030 ]
+"4873
+[v _SSP1CON2 `Vuc  1 e 1 @4037 ]
+"5052
+[v _SSP1CON1 `Vuc  1 e 1 @4038 ]
+"5157
+[v _SSP1STAT `Vuc  1 e 1 @4039 ]
+"5444
+[v _SSP1ADD `Vuc  1 e 1 @4040 ]
+"5597
+[v _SSP1BUF `Vuc  1 e 1 @4041 ]
+"5894
+[v _OSCCON `Vuc  1 e 1 @4051 ]
+"6686
+[v _ACKDT1 `Vb  1 e 0 @32301 ]
+"6690
+[v _ACKEN1 `Vb  1 e 0 @32300 ]
+"6754
+[v _ADON `Vb  1 e 0 @32272 ]
+"7068
+[v _CCP4MD `Vb  1 e 0 @31219 ]
+"7882
+[v _PEN1 `Vb  1 e 0 @32298 ]
+"7970
+[v _RCEN1 `Vb  1 e 0 @32299 ]
+"8024
+[v _RSEN1 `Vb  1 e 0 @32297 ]
+"8112
+[v _SEN1 `Vb  1 e 0 @32296 ]
+"8650
+[v _TRISC1 `Vb  1 e 0 @31905 ]
+"8652
+[v _TRISC2 `Vb  1 e 0 @31906 ]
+"8654
+[v _TRISC3 `Vb  1 e 0 @31907 ]
+"8656
+[v _TRISC4 `Vb  1 e 0 @31908 ]
+"64 lcd.h
+[v __cols `uc  1 e 1 0 ]
+"65
+[v __rows `uc  1 e 1 0 ]
+"66
+[v __backlightval `uc  1 e 1 0 ]
+"67
+[v __displayFunction `uc  1 e 1 0 ]
+"68
+[v __displayControl `uc  1 e 1 0 ]
+"69
+[v __displayMode `uc  1 e 1 0 ]
+"70
+[v __numlines `uc  1 e 1 0 ]
+"40 main.c
+[v _main `(i  1 e 2 0 ]
+{
+"64
+[v main@test `uc  1 a 1 37 ]
+"76
+} 0
+"100 lcd.h
+[v _lcd_write `(v  1 e 0 0 ]
+{
+[v lcd_write@_char `uc  1 p 1 26 ]
+"102
+} 0
+"248
+[v _lcd_init `(v  1 e 0 0 ]
+{
+[v lcd_init@columns `uc  1 p 1 32 ]
+[v lcd_init@rows `uc  1 p 1 33 ]
+"256
+} 0
+"15 i2c.h
+[v _i2c_init `(v  1 e 0 0 ]
+{
+"25
+} 0
+"209 lcd.h
+[v _lcd_begin `(v  1 e 0 0 ]
+{
+[v lcd_begin@cols `uc  1 p 1 29 ]
+[v lcd_begin@lines `uc  1 p 1 30 ]
+"246
+} 0
+"108
+[v _lcd_clear `(v  1 e 0 0 ]
+{
+"111
+} 0
+"113
+[v _lcd_home `(v  1 e 0 0 ]
+{
+"116
+} 0
+"131
+[v _lcd_display `(v  1 e 0 0 ]
+{
+"134
+} 0
+"104
+[v _lcd_command `(v  1 e 0 0 ]
+{
+[v lcd_command@command `uc  1 p 1 26 ]
+"106
+} 0
+"91
+[v _lcd_send `(v  1 e 0 0 ]
+{
+"93
+[v lcd_send@lsb `uc  1 a 1 25 ]
+"92
+[v lcd_send@msb `uc  1 a 1 24 ]
+"91
+[v lcd_send@value `uc  1 p 1 22 ]
+[v lcd_send@mode `uc  1 p 1 23 ]
+"96
+} 0
+"86
+[v _lcd_write4bits `(v  1 e 0 0 ]
+{
+[v lcd_write4bits@value `uc  1 p 1 21 ]
+"89
+} 0
+"79
+[v _lcd_pulse `(v  1 e 0 0 ]
+{
+[v lcd_pulse@data `uc  1 p 1 20 ]
+"84
+} 0
+"72
+[v _lcd_eWrite `(v  1 e 0 0 ]
+{
+[v lcd_eWrite@data `uc  1 p 1 17 ]
+"77
+} 0
+"31 i2c.h
+[v _i2c_start `(v  1 e 0 0 ]
+{
+"34
+} 0
+"41
+[v _i2c_stop `(v  1 e 0 0 ]
+{
+"44
+} 0
+"46
+[v _i2c_write `(v  1 e 0 0 ]
+{
+[v i2c_write@data `uc  1 p 1 14 ]
+"49
+} 0
+"51
+[v _i2c_address `(v  1 e 0 0 ]
+{
+"52
+[v i2c_address@l_address `uc  1 a 1 16 ]
+"51
+[v i2c_address@address `uc  1 p 1 14 ]
+[v i2c_address@mode `uc  1 p 1 15 ]
+"58
+} 0
+"27
+[v _i2c_wait `(v  1 e 0 0 ]
+{
+"29
+} 0
+"78 main.c
+[v _setup_pwm `(v  1 e 0 0 ]
+{
+"87
+} 0
+"90
+[v _ISR `I(v  1 e 0 0 ]
+{
+"92
+} 0
